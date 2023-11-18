@@ -42,6 +42,12 @@
 
 #define DEBUG_TRACE 0 
 
+//Counting total messages sent
+int messagesNum = 0;
+
+//Calculating total data moved between ranks
+double dataMoved = 0.0;
+
 int
 parseArgs(int ac, char *av[], AppState *as)
 {
@@ -376,8 +382,16 @@ sendStridedBuffer(float *srcBuf,
       int sendWidth, int sendHeight, 
       int fromRank, int toRank ) 
 {
+   messagesNum++;
+   dataMoved += sendHeight * sendWidth * sizeof(srcBuf);
+   
    int msgTag = 0;
-
+   
+   MPI_Datatype result;
+   MPI_Type_vector(sendHeight, sendWidth, srcWidth, MPI_FLOAT, &result);
+   MPI_Type_commit(&result);
+   MPI_Send(srcBuf + (srcOffsetRow * srcWidth + srcOffsetColumn), 1, result, toRank, msgTag, MPI_COMM_WORLD);
+   
    //
    // ADD YOUR CODE HERE
    // That performs sending of  data using MPI_Send(), going "fromRank" and to "toRank". The
@@ -395,10 +409,18 @@ recvStridedBuffer(float *dstBuf,
       int dstOffsetColumn, int dstOffsetRow, 
       int expectedWidth, int expectedHeight, 
       int fromRank, int toRank ) {
-
+	
+   messagesNum++;
+   dataMoved += expectedHeight * expectedWidth * sizeof(dstBuf);
+   
    int msgTag = 0;
    int recvSize[2];
    MPI_Status stat;
+   
+   MPI_Datatype result;
+   MPI_Type_vector(expectedHeight, expectedWidth, dstWidth, MPI_FLOAT, &result);
+   MPI_Type_commit(&result);
+   MPI_Recv(dstBuf + (dstOffsetRow * dstWidth + dstOffsetColumn), 1, result, fromRank, msgTag, MPI_COMM_WORLD, &stat);
 
    //
    // ADD YOUR CODE HERE
@@ -416,8 +438,45 @@ recvStridedBuffer(float *dstBuf,
 // that performs sobel filtering
 // suggest using your cpu code from HW5, no OpenMP parallelism 
 //
+float
+sobel_filtered_pixel(float *s, int i, int j , int ncols, int nrows, float *gx, float *gy)
+{
+   float t=0.0;
 
+   float tmp_x=0.0;
+   float tmp_y=0.0;
+   //j: row i:col
+   int s_offset = (i-1)*ncols + (j-1);  
+   
+   for (int jj = 0; jj<3; jj++, s_offset += ncols){
+      for (int ii = 0; ii<3; ii++){
+         tmp_x += s[ii+s_offset] * gx[ii+jj*3];
+         tmp_y += s[ii+s_offset] * gy[ii+jj*3];
+      } 
+   }
 
+   t = sqrt(tmp_x*tmp_x+tmp_y*tmp_y);
+
+   return t;
+}
+
+void
+do_sobel_filtering(float *in, float *out, int ncols, int nrows)
+{
+   float Gx[] = {1.0, 0.0, -1.0, 2.0, 0.0, -2.0, 1.0, 0.0, -1.0};
+   float Gy[] = {1.0, 2.0, 1.0, 0.0, 0.0, 0.0, -1.0, -2.0, -1.0};
+
+   for(int i = 0; i < nrows; i++){
+      for(int j = 0; j < ncols; j++){
+         if(i==0 || j==0 || i==(nrows-1) || j==(ncols-1)) {
+            out[i*ncols+j] = 0.0;
+         }
+         else{
+            out[i*ncols+j] = sobel_filtered_pixel(in, i, j, ncols, nrows, Gx, Gy);
+         } 
+      }
+   }
+}
 void
 sobelAllTiles(int myrank, vector < vector < Tile2D > > & tileArray) {
    for (int row=0;row<tileArray.size(); row++)
@@ -439,6 +498,7 @@ sobelAllTiles(int myrank, vector < vector < Tile2D > > & tileArray) {
 #endif
          // ADD YOUR CODE HERE
          // to call your sobel filtering code on each tile
+            do_sobel_filtering(t->inputBuffer.data(), t->outputBuffer.data(), t->width, t->height);
          }
       }
    }
@@ -687,9 +747,12 @@ int main(int ac, char *av[]) {
       printf("\tScatter time:\t%6.4f (ms) \n", elapsed_scatter_time*1000.0);
       printf("\tSobel time:\t%6.4f (ms) \n", elapsed_sobel_time*1000.0);
       printf("\tGather time:\t%6.4f (ms) \n", elapsed_gather_time*1000.0);
+      printf("\tNumber of messages:\t%i \n", messagesNum);
+      printf("\tData moved:\t%6.4f \n", dataMoved);
    }
 
    MPI_Finalize();
    return 0;
 }
 // EOF
+
