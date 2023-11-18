@@ -1,0 +1,1036 @@
+ srun -n 4 ./mpi_2dmesh -i ../data/zebra-gray-int8-4x -x 7112 -y 5146 -g 1  
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+srun: error: nid005821: task 0: Exited with exit code 2
+srun: Terminating StepId=18279323.0
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+srun: error: nid005823: task 2: Exited with exit code 2
+srun: error: nid005824: task 3: Exited with exit code 2
+srun: error: nid005822: task 1: Exited with exit code 2
+ srun -n 4 ./mpi_2dmesh -i ../data/zebra-gray-int8-4x -x 7112 -y 5146 -g 2  
+srun: Job 18279323 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Step created for StepId=18279323.1
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+srun: error: nid005822: task 1: Exited with exit code 2
+srun: Terminating StepId=18279323.1
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+srun: error: nid005823: task 2: Exited with exit code 2
+srun: error: nid005824: task 3: Exited with exit code 2
+srun: error: nid005821: task 0: Exited with exit code 2
+ srun -n 4 ./mpi_2dmesh -i ../data/zebra-gray-int8-4x -x 7112 -y 5146 -g 3  
+srun: Job 18279323 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Step created for StepId=18279323.2
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+srun: error: nid005821: task 0: Exited with exit code 2
+srun: Terminating StepId=18279323.2
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+srun: error: nid005823: task 2: Exited with exit code 2
+srun: error: nid005822: task 1: Exited with exit code 2
+srun: error: nid005824: task 3: Exited with exit code 2
+ srun -n 9 ./mpi_2dmesh -i ../data/zebra-gray-int8-4x -x 7112 -y 5146 -g 1  
+srun: Job 18279323 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Step created for StepId=18279323.3
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+srun: error: nid005824: tasks 7-8: Exited with exit code 2
+srun: Terminating StepId=18279323.3
+srun: error: nid005823: tasks 5-6: Exited with exit code 2
+srun: error: nid005822: tasks 3-4: Exited with exit code 2
+srun: error: nid005821: tasks 0-2: Exited with exit code 2
+ srun -n 9 ./mpi_2dmesh -i ../data/zebra-gray-int8-4x -x 7112 -y 5146 -g 2  
+srun: Job 18279323 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Step created for StepId=18279323.4
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+srun: error: nid005822: tasks 3-4: Exited with exit code 2
+srun: Terminating StepId=18279323.4
+srun: error: nid005821: tasks 0-2: Exited with exit code 2
+srun: error: nid005823: tasks 5-6: Exited with exit code 2
+srun: error: nid005824: tasks 7-8: Exited with exit code 2
+ srun -n 9 ./mpi_2dmesh -i ../data/zebra-gray-int8-4x -x 7112 -y 5146 -g 3  
+srun: Job 18279323 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Step created for StepId=18279323.5
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+srun: error: nid005822: tasks 3-4: Exited with exit code 2
+srun: Terminating StepId=18279323.5
+srun: error: nid005824: tasks 7-8: Exited with exit code 2
+srun: error: nid005823: tasks 5-6: Exited with exit code 2
+srun: error: nid005821: tasks 0-2: Exited with exit code 2
+ srun -n 16 ./mpi_2dmesh -i ../data/zebra-gray-int8-4x -x 7112 -y 5146 -g 1  
+srun: Job 18279323 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Step created for StepId=18279323.6
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+srun: error: nid005822: tasks 4-7: Exited with exit code 2
+srun: Terminating StepId=18279323.6
+srun: error: nid005823: tasks 8-11: Exited with exit code 2
+srun: error: nid005824: tasks 12-15: Exited with exit code 2
+srun: error: nid005821: tasks 0-3: Exited with exit code 2
+ srun -n 16 ./mpi_2dmesh -i ../data/zebra-gray-int8-4x -x 7112 -y 5146 -g 2  
+srun: Job 18279323 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Step created for StepId=18279323.7
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+srun: error: nid005821: tasks 0-3: Exited with exit code 2
+srun: Terminating StepId=18279323.7
+srun: error: nid005823: tasks 8-11: Exited with exit code 2
+srun: error: nid005824: tasks 12-15: Exited with exit code 2
+srun: error: nid005822: tasks 4-7: Exited with exit code 2
+ srun -n 16 ./mpi_2dmesh -i ../data/zebra-gray-int8-4x -x 7112 -y 5146 -g 3  
+srun: Job 18279323 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Step created for StepId=18279323.8
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+srun: error: nid005821: tasks 0-3: Exited with exit code 2
+srun: Terminating StepId=18279323.8
+srun: error: nid005824: tasks 12-15: Exited with exit code 2
+srun: error: nid005822: tasks 4-7: Exited with exit code 2
+srun: error: nid005823: tasks 8-11: Exited with exit code 2
+ srun -n 25 ./mpi_2dmesh -i ../data/zebra-gray-int8-4x -x 7112 -y 5146 -g 1  
+srun: Job 18279323 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Step created for StepId=18279323.9
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+srun: error: nid005823: tasks 13-18: Exited with exit code 2
+srun: Terminating StepId=18279323.9
+srun: error: nid005822: tasks 7-12: Exited with exit code 2
+srun: error: nid005824: tasks 19-24: Exited with exit code 2
+srun: error: nid005821: tasks 0-6: Exited with exit code 2
+ srun -n 25 ./mpi_2dmesh -i ../data/zebra-gray-int8-4x -x 7112 -y 5146 -g 2  
+srun: Job 18279323 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Step created for StepId=18279323.10
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+srun: error: nid005823: tasks 13-18: Exited with exit code 2
+srun: Terminating StepId=18279323.10
+srun: error: nid005824: tasks 19-24: Exited with exit code 2
+srun: error: nid005821: tasks 0-6: Exited with exit code 2
+srun: error: nid005822: tasks 7-12: Exited with exit code 2
+ srun -n 25 ./mpi_2dmesh -i ../data/zebra-gray-int8-4x -x 7112 -y 5146 -g 3  
+srun: Job 18279323 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Step created for StepId=18279323.11
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+srun: error: nid005821: tasks 0-6: Exited with exit code 2
+srun: Terminating StepId=18279323.11
+srun: error: nid005822: tasks 7-12: Exited with exit code 2
+srun: error: nid005823: tasks 13-18: Exited with exit code 2
+srun: error: nid005824: tasks 19-24: Exited with exit code 2
+ srun -n 36 ./mpi_2dmesh -i ../data/zebra-gray-int8-4x -x 7112 -y 5146 -g 1  
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+srun: error: nid005824: tasks 27-35: Exited with exit code 2
+srun: Terminating StepId=18279323.12
+srun: error: nid005822: tasks 9-17: Exited with exit code 2
+srun: error: nid005823: tasks 18-26: Exited with exit code 2
+srun: error: nid005821: tasks 0-8: Exited with exit code 2
+ srun -n 36 ./mpi_2dmesh -i ../data/zebra-gray-int8-4x -x 7112 -y 5146 -g 2  
+srun: Job 18279323 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Step created for StepId=18279323.13
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+srun: error: nid005821: tasks 0-8: Exited with exit code 2
+srun: Terminating StepId=18279323.13
+srun: error: nid005822: tasks 9-17: Exited with exit code 2
+srun: error: nid005824: tasks 27-35: Exited with exit code 2
+srun: error: nid005823: tasks 18-26: Exited with exit code 2
+ srun -n 36 ./mpi_2dmesh -i ../data/zebra-gray-int8-4x -x 7112 -y 5146 -g 3  
+srun: Job 18279323 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Step created for StepId=18279323.14
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+srun: error: nid005821: tasks 0-8: Exited with exit code 2
+srun: Terminating StepId=18279323.14
+srun: error: nid005824: tasks 27-35: Exited with exit code 2
+srun: error: nid005822: tasks 9-17: Exited with exit code 2
+srun: error: nid005823: tasks 18-26: Exited with exit code 2
+ srun -n 49 ./mpi_2dmesh -i ../data/zebra-gray-int8-4x -x 7112 -y 5146 -g 1  
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+srun: error: nid005821: tasks 0-12: Exited with exit code 2
+srun: Terminating StepId=18279323.15
+srun: error: nid005824: tasks 37-48: Exited with exit code 2
+srun: error: nid005823: tasks 25-36: Exited with exit code 2
+srun: error: nid005822: tasks 13-24: Exited with exit code 2
+ srun -n 49 ./mpi_2dmesh -i ../data/zebra-gray-int8-4x -x 7112 -y 5146 -g 2  
+srun: Job 18279323 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Step created for StepId=18279323.16
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+srun: error: nid005824: tasks 37-48: Exited with exit code 2
+srun: Terminating StepId=18279323.16
+srun: error: nid005823: tasks 25-36: Exited with exit code 2
+srun: error: nid005821: tasks 0-12: Exited with exit code 2
+srun: error: nid005822: tasks 13-24: Exited with exit code 2
+ srun -n 49 ./mpi_2dmesh -i ../data/zebra-gray-int8-4x -x 7112 -y 5146 -g 3  
+srun: Job 18279323 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Step created for StepId=18279323.17
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+srun: error: nid005823: tasks 25-36: Exited with exit code 2
+srun: Terminating StepId=18279323.17
+srun: error: nid005822: tasks 13-24: Exited with exit code 2
+srun: error: nid005824: tasks 37-48: Exited with exit code 2
+srun: error: nid005821: tasks 0-12: Exited with exit code 2
+ srun -n 64 ./mpi_2dmesh -i ../data/zebra-gray-int8-4x -x 7112 -y 5146 -g 1  
+srun: Job 18279323 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Step created for StepId=18279323.18
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+srun: error: nid005824: tasks 48-63: Exited with exit code 2
+srun: Terminating StepId=18279323.18
+srun: error: nid005821: tasks 0-15: Exited with exit code 2
+srun: error: nid005823: tasks 32-47: Exited with exit code 2
+srun: error: nid005822: tasks 16-31: Exited with exit code 2
+ srun -n 64 ./mpi_2dmesh -i ../data/zebra-gray-int8-4x -x 7112 -y 5146 -g 2  
+srun: Job 18279323 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Step created for StepId=18279323.19
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+srun: error: nid005821: tasks 0-15: Exited with exit code 2
+srun: Terminating StepId=18279323.19
+srun: error: nid005824: tasks 48-63: Exited with exit code 2
+srun: error: nid005822: tasks 16-31: Exited with exit code 2
+srun: error: nid005823: tasks 32-47: Exited with exit code 2
+ srun -n 64 ./mpi_2dmesh -i ../data/zebra-gray-int8-4x -x 7112 -y 5146 -g 3  
+srun: Job 18279323 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Step created for StepId=18279323.20
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+srun: error: nid005824: tasks 48-63: Exited with exit code 2
+srun: Terminating StepId=18279323.20
+srun: error: nid005821: tasks 0-15: Exited with exit code 2
+srun: error: nid005822: tasks 16-31: Exited with exit code 2
+srun: error: nid005823: tasks 32-47: Exited with exit code 2
+ srun -n 81 ./mpi_2dmesh -i ../data/zebra-gray-int8-4x -x 7112 -y 5146 -g 1  
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+srun: error: nid005824: tasks 61-80: Exited with exit code 2
+srun: Terminating StepId=18279323.21
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+srun: error: nid005822: tasks 21-40: Exited with exit code 2
+srun: error: nid005821: tasks 0-20: Exited with exit code 2
+srun: error: nid005823: tasks 41-60: Exited with exit code 2
+ srun -n 81 ./mpi_2dmesh -i ../data/zebra-gray-int8-4x -x 7112 -y 5146 -g 2  
+srun: Job 18279323 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Step created for StepId=18279323.22
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+srun: error: nid005824: tasks 61-80: Exited with exit code 2
+srun: Terminating StepId=18279323.22
+srun: error: nid005821: tasks 0-20: Exited with exit code 2
+srun: error: nid005822: tasks 21-40: Exited with exit code 2
+srun: error: nid005823: tasks 41-60: Exited with exit code 2
+ srun -n 81 ./mpi_2dmesh -i ../data/zebra-gray-int8-4x -x 7112 -y 5146 -g 3  
+srun: Job 18279323 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Step created for StepId=18279323.23
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+slurmstepd: error: execve(): /global/u1/m/mahek/mahek_hpc/CP6/mpi_2dmesh_harness_instructional/scripts/./mpi_2dmesh: No such file or directory
+srun: error: nid005821: tasks 0-20: Exited with exit code 2
+srun: Terminating StepId=18279323.23
+srun: error: nid005824: tasks 61-80: Exited with exit code 2
+srun: error: nid005823: tasks 41-60: Exited with exit code 2
+srun: error: nid005822: tasks 21-40: Exited with exit code 2
